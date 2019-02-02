@@ -1,0 +1,29 @@
+
+img {
+    max-width: 100%;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+}
+
+#dugme {
+    margin-top: 20px;
+}
+
+#lyrics-loader,
+#wiki-loader {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    background-size: 120%;
+}

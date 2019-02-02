@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Lyrics Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Lyrics Search</h2>
+                <form id="forma">
+                    <label for="trazeni-izvodjac">Izvođač:</label>
+                    <input type="text" id="trazeni-izvodjac">
+        
+                    <label for="trazena-pesma">Pesma:</label>
+                    <input type="text" id="trazena-pesma">
+        
+                    <div>
+                        <button id="dugme">Potraži</button>
+                    </div>
+                </form>
+                <img id="lyrics-loader" src="loader.gif" alt="loader">
+                <h2 id="naslov-pesme"></h2>
+                <div id="tekst-pesme"></div>
+            </div>
+            <div class="col-md-6">
+                <img id="wiki-loader" src="loader.gif" alt="loader">
+                <h1 id="wiki-naslov"></h1>
+                <div id="wiki-clanak"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
